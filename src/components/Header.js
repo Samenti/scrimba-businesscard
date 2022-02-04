@@ -12,11 +12,11 @@ export default function Header() {
       <a href="#" className="link-website">laurasmith.website</a>
       <div className="buttons-container">
         <a href="mailto:dummyemail@gmail.com" className="button mail-button">
-          <img src={mailIcon} alt="mail icon" />
+          <img src={mailIcon} alt="mail" />
           Email
         </a>
         <a href="https://www.linkedin.com/" className="button linkedin-button">
-            <img src={linkedInIcon} alt="LinkedIn icon" />
+            <img src={linkedInIcon} alt="LinkedIn" />
             LinkedIn
         </a>
       </div>
