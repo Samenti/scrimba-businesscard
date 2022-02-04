@@ -1,0 +1,51 @@
+.card {
+  background-color: #F5F5F5;
+}
+
+.socials-container {
+  background-color: #D5D4D8;
+}
+
+.header > h1 {
+  color: #2B283A;
+}
+
+.header > h3 {
+  color: #F47D27;
+}
+
+.link-website {
+  color: #4A4E74;
+}
+
+.mail-button {
+  color: #374151;
+  border: 1px solid #D1D5DB;
+}
+
+.linkedin-button {
+  background-color: #297FE5;
+}
+
+section h3 {
+  color: #2B283A;
+}
+
+section p {
+  color: #4A4E74;
+}
+
+/* This version hides the linkedin button in the header... */
+.linkedin-button {
+  display: none;
+}
+
+/* ...and gives the email button larger width... */
+.button {
+  width: 247px;
+}
+
+/* ...while adding the linkedin button to socials at the bottom. */
+.socials-container > a:nth-child(4) {
+  display: inline;
+}

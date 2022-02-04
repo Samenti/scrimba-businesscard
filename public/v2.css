@@ -1,0 +1,14 @@
+/* This version hides the linkedin button in the header... */
+.linkedin-button {
+  display: none;
+}
+
+/* ...and gives the email button larger width... */
+.button {
+  width: 247px;
+}
+
+/* ...while adding the linkedin button to socials at the bottom. */
+.socials-container > a:nth-child(4) {
+  display: inline;
+}

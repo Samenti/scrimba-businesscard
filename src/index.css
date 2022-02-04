@@ -12,8 +12,9 @@ body {
 /* basically a flexbox for our business card: */
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -28,7 +29,7 @@ body {
 }
 
 /* although the image already has rounded corners,
-this makes them nicer */
+this makes them nicer: */
 .header > img {
   border-radius: 12px 12px 0 0;
 }
@@ -54,7 +55,7 @@ this makes them nicer */
   color: #F5F5F5;
 }
 
-/* flexbox for buttons */
+/* flexbox for buttons: */
 .buttons-container {
   display: flex;
   flex-direction: row;
@@ -93,26 +94,30 @@ this makes them nicer */
 
 .info-container {
   max-width: 317px; /* width of the header image */
-  padding: 0 30px;
+  padding: 18px 30px;
 }
 
 section h3 {
+  margin: 0;
   font-size: 16px;
   line-height: 24px;
   color: #F5F5F5;
 }
 
 section p {
+  margin: 5px 0 15px;
   font-size: 11px;
   line-height: 15px;
   color: #DCDCDC;
 }
 
+/* flexbox for socials: */
 .socials-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 9px;
   padding: 20px;
   background-color: #161619;
   border-radius: 0 0 12px 12px;
@@ -120,4 +125,21 @@ section p {
 
 .socials-container a {
   margin: 0 12px;
+}
+
+/* Hide linkedin button in socials
+since we're already showing it in header: */
+.socials-container > a:nth-child(4) {
+  display: none;
+}
+
+/**** Versions navbar at the bottom ****/
+.version-nav {
+  margin-top: 50px;
+}
+
+.version-nav a {
+  margin: auto 10px;
+  font-size: 12px;
+  color: white;
 }
