@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/scrimba-businesscard/static/css/main.850b26fc.css",
+    "main.js": "/scrimba-businesscard/static/js/main.29aba7cc.js",
+    "static/media/stock-portrait.png": "/scrimba-businesscard/static/media/stock-portrait.836a8475bf9317ab2a29.png",
+    "static/media/instagram.svg": "/scrimba-businesscard/static/media/instagram.7d8ad7f9b33a773c27398cacfc5a97a3.svg",
+    "static/media/github.svg": "/scrimba-businesscard/static/media/github.23d6dfa78140e8017f08351385915806.svg",
+    "static/media/twitter.svg": "/scrimba-businesscard/static/media/twitter.3f40423293e1813898c7e26f729a0705.svg",
+    "static/media/linkedin.svg": "/scrimba-businesscard/static/media/linkedin.19612fdb23c98848437a9163121397e7.svg",
+    "static/media/linkedin-dark.svg": "/scrimba-businesscard/static/media/linkedin-dark.f6c23309e78849945a3d9dce42769c2f.svg",
+    "index.html": "/scrimba-businesscard/index.html",
+    "static/media/facebook.svg": "/scrimba-businesscard/static/media/facebook.00c353d38f22d18d3ff0962f9ce66f43.svg",
+    "static/media/mail.svg": "/scrimba-businesscard/static/media/mail.9a2254b41727510aba0d31da7ad223f9.svg",
+    "main.850b26fc.css.map": "/scrimba-businesscard/static/css/main.850b26fc.css.map",
+    "main.29aba7cc.js.map": "/scrimba-businesscard/static/js/main.29aba7cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.850b26fc.css",
+    "static/js/main.29aba7cc.js"
+  ]
+}
